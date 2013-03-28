@@ -10,6 +10,13 @@
 
 @implementation AppDelegate
 
+static AppDelegate* Object_Shared = Nil;
++(AppDelegate*)SharedApplication
+{
+    Object_Shared = (AppDelegate*)[UIApplication sharedApplication].delegate;
+    return Object_Shared;
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
