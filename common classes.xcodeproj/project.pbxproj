@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		760725ED17071817001F9810 /* libFTUtils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 760725E6170717FB001F9810 /* libFTUtils.a */; };
 		76DCDAB317045DC8000E4374 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76DCDAB217045DC8000E4374 /* UIKit.framework */; };
 		76DCDAB517045DC8000E4374 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76DCDAB417045DC8000E4374 /* Foundation.framework */; };
 		76DCDAB717045DC8000E4374 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76DCDAB617045DC8000E4374 /* CoreGraphics.framework */; };
@@ -56,7 +57,6 @@
 		76DCDBB61704608D000E4374 /* DineWebserviceClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 76DCDBB31704608D000E4374 /* DineWebserviceClass.m */; };
 		76DCDBB71704608D000E4374 /* DineWebserviceSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 76DCDBB51704608D000E4374 /* DineWebserviceSwitch.m */; };
 		76DCDBBA17046301000E4374 /* CommonHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 76DCDBB917046301000E4374 /* CommonHeader.m */; };
-		76E5618D17046B850049A2BB /* libFTUtils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76E56185170469F90049A2BB /* libFTUtils.a */; };
 		76E5619317046C630049A2BB /* SelectPopUpCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76E5618E17046C630049A2BB /* SelectPopUpCell.xib */; };
 		76E5619417046C630049A2BB /* SelectPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E5618F17046C630049A2BB /* SelectPopViewController.m */; };
 		76E5619517046C630049A2BB /* SelectPopUpCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E5619217046C630049A2BB /* SelectPopUpCell.m */; };
@@ -68,30 +68,30 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		76E56184170469F90049A2BB /* PBXContainerItemProxy */ = {
+		760725E5170717FB001F9810 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 76E5617E170469F90049A2BB /* FTUtils.xcodeproj */;
+			containerPortal = 760725DF170717FA001F9810 /* FTUtils.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = D2AAC07E0554694100DB518D;
 			remoteInfo = FTUtils;
 		};
-		76E56186170469F90049A2BB /* PBXContainerItemProxy */ = {
+		760725E7170717FB001F9810 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 76E5617E170469F90049A2BB /* FTUtils.xcodeproj */;
+			containerPortal = 760725DF170717FA001F9810 /* FTUtils.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = DFFDB4AA10C2DA2200F7BF95;
 			remoteInfo = FTAnimationExamples;
 		};
-		76E56188170469F90049A2BB /* PBXContainerItemProxy */ = {
+		760725E9170717FB001F9810 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 76E5617E170469F90049A2BB /* FTUtils.xcodeproj */;
+			containerPortal = 760725DF170717FA001F9810 /* FTUtils.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = DF2FCB7B1325AEAE00B38930;
 			remoteInfo = UnitTests;
 		};
-		76E5618B17046B7F0049A2BB /* PBXContainerItemProxy */ = {
+		760725EB1707180D001F9810 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 76E5617E170469F90049A2BB /* FTUtils.xcodeproj */;
+			containerPortal = 760725DF170717FA001F9810 /* FTUtils.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = D2AAC07D0554694100DB518D;
 			remoteInfo = FTUtils;
@@ -99,6 +99,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		760725DF170717FA001F9810 /* FTUtils.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FTUtils.xcodeproj; path = ../ftutils/FTUtils.xcodeproj; sourceTree = "<group>"; };
+		760725F017071B2C001F9810 /* FTAnimation+UIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FTAnimation+UIView.h"; sourceTree = "<group>"; };
+		760725F117071B2C001F9810 /* FTAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTAnimation.h; sourceTree = "<group>"; };
+		760725F217071B2C001F9810 /* FTAnimationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTAnimationManager.h; sourceTree = "<group>"; };
+		760725F317071B2C001F9810 /* FTUtils+NSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FTUtils+NSObject.h"; sourceTree = "<group>"; };
+		760725F417071B2C001F9810 /* FTUtils+UIGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FTUtils+UIGestureRecognizer.h"; sourceTree = "<group>"; };
+		760725F517071B2C001F9810 /* FTUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTUtils.h; sourceTree = "<group>"; };
 		76DCDAAF17045DC8000E4374 /* common classes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "common classes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76DCDAB217045DC8000E4374 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		76DCDAB417045DC8000E4374 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -185,7 +192,6 @@
 		76DCDBB51704608D000E4374 /* DineWebserviceSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DineWebserviceSwitch.m; sourceTree = "<group>"; };
 		76DCDBB817046301000E4374 /* CommonHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonHeader.h; sourceTree = "<group>"; };
 		76DCDBB917046301000E4374 /* CommonHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonHeader.m; sourceTree = "<group>"; };
-		76E5617E170469F90049A2BB /* FTUtils.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FTUtils.xcodeproj; path = "common classes/ftutils/FTUtils.xcodeproj"; sourceTree = "<group>"; };
 		76E5618E17046C630049A2BB /* SelectPopUpCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SelectPopUpCell.xib; path = Common/PopSelection/SelectPopUpCell.xib; sourceTree = SOURCE_ROOT; };
 		76E5618F17046C630049A2BB /* SelectPopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SelectPopViewController.m; path = Common/PopSelection/SelectPopViewController.m; sourceTree = SOURCE_ROOT; };
 		76E5619017046C630049A2BB /* SelectPopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SelectPopViewController.h; path = Common/PopSelection/SelectPopViewController.h; sourceTree = SOURCE_ROOT; };
@@ -203,12 +209,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				760725ED17071817001F9810 /* libFTUtils.a in Frameworks */,
 				76E5619F17046F630049A2BB /* MobileCoreServices.framework in Frameworks */,
 				76E5619D17046F5F0049A2BB /* SystemConfiguration.framework in Frameworks */,
 				76E5619B17046F470049A2BB /* AVFoundation.framework in Frameworks */,
 				76E5619917046F3C0049A2BB /* CFNetwork.framework in Frameworks */,
 				76E5619717046F320049A2BB /* QuartzCore.framework in Frameworks */,
-				76E5618D17046B850049A2BB /* libFTUtils.a in Frameworks */,
 				76DCDAB317045DC8000E4374 /* UIKit.framework in Frameworks */,
 				76DCDAB517045DC8000E4374 /* Foundation.framework in Frameworks */,
 				76DCDAB717045DC8000E4374 /* CoreGraphics.framework in Frameworks */,
@@ -218,10 +224,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		760725E0170717FA001F9810 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				760725E6170717FB001F9810 /* libFTUtils.a */,
+				760725E8170717FB001F9810 /* FTAnimationExamples.app */,
+				760725EA170717FB001F9810 /* UnitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		760725EE17071B2C001F9810 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				760725EF17071B2C001F9810 /* FTUtils */,
+			);
+			name = Headers;
+			path = ../ftutils/Headers;
+			sourceTree = "<group>";
+		};
+		760725EF17071B2C001F9810 /* FTUtils */ = {
+			isa = PBXGroup;
+			children = (
+				760725F017071B2C001F9810 /* FTAnimation+UIView.h */,
+				760725F117071B2C001F9810 /* FTAnimation.h */,
+				760725F217071B2C001F9810 /* FTAnimationManager.h */,
+				760725F317071B2C001F9810 /* FTUtils+NSObject.h */,
+				760725F417071B2C001F9810 /* FTUtils+UIGestureRecognizer.h */,
+				760725F517071B2C001F9810 /* FTUtils.h */,
+			);
+			path = FTUtils;
+			sourceTree = "<group>";
+		};
 		76DCDAA617045DC8000E4374 = {
 			isa = PBXGroup;
 			children = (
-				76E5617E170469F90049A2BB /* FTUtils.xcodeproj */,
 				76DCDACF1704600B000E4374 /* Common */,
 				76DCDAB817045DC8000E4374 /* common classes */,
 				76DCDAB117045DC8000E4374 /* Frameworks */,
@@ -240,6 +277,8 @@
 		76DCDAB117045DC8000E4374 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				760725EE17071B2C001F9810 /* Headers */,
+				760725DF170717FA001F9810 /* FTUtils.xcodeproj */,
 				76E5619E17046F630049A2BB /* MobileCoreServices.framework */,
 				76E5619C17046F5F0049A2BB /* SystemConfiguration.framework */,
 				76E5619A17046F470049A2BB /* AVFoundation.framework */,
@@ -450,16 +489,6 @@
 			path = Global/PopSelection;
 			sourceTree = "<group>";
 		};
-		76E5617F170469F90049A2BB /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				76E56185170469F90049A2BB /* libFTUtils.a */,
-				76E56187170469F90049A2BB /* FTAnimationExamples.app */,
-				76E56189170469F90049A2BB /* UnitTests.octest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -474,7 +503,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				76E5618C17046B7F0049A2BB /* PBXTargetDependency */,
+				760725EC1707180D001F9810 /* PBXTargetDependency */,
 			);
 			name = "common classes";
 			productName = "common classes";
@@ -502,8 +531,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 76E5617F170469F90049A2BB /* Products */;
-					ProjectRef = 76E5617E170469F90049A2BB /* FTUtils.xcodeproj */;
+					ProductGroup = 760725E0170717FA001F9810 /* Products */;
+					ProjectRef = 760725DF170717FA001F9810 /* FTUtils.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -514,25 +543,25 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		76E56185170469F90049A2BB /* libFTUtils.a */ = {
+		760725E6170717FB001F9810 /* libFTUtils.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libFTUtils.a;
-			remoteRef = 76E56184170469F90049A2BB /* PBXContainerItemProxy */;
+			remoteRef = 760725E5170717FB001F9810 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		76E56187170469F90049A2BB /* FTAnimationExamples.app */ = {
+		760725E8170717FB001F9810 /* FTAnimationExamples.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
 			path = FTAnimationExamples.app;
-			remoteRef = 76E56186170469F90049A2BB /* PBXContainerItemProxy */;
+			remoteRef = 760725E7170717FB001F9810 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		76E56189170469F90049A2BB /* UnitTests.octest */ = {
+		760725EA170717FB001F9810 /* UnitTests.octest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = UnitTests.octest;
-			remoteRef = 76E56188170469F90049A2BB /* PBXContainerItemProxy */;
+			remoteRef = 760725E9170717FB001F9810 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -607,10 +636,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		76E5618C17046B7F0049A2BB /* PBXTargetDependency */ = {
+		760725EC1707180D001F9810 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FTUtils;
-			targetProxy = 76E5618B17046B7F0049A2BB /* PBXContainerItemProxy */;
+			targetProxy = 760725EB1707180D001F9810 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

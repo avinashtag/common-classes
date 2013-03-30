@@ -7,17 +7,17 @@
 		<string>/Iphone Projects/Vertax/common classes</string>
 	</array>
 	<key>LastWorkingCopyScanDate</key>
-	<date>2013-03-28T12:33:24Z</date>
+	<date>2013-03-28T12:44:13Z</date>
 	<key>MissingFilePaths</key>
 	<array>
 		<string>/Iphone Projects/Vertax/common classes/Common/Facebook Share/iphonesimulator3.1.2/usr/lib/libsqlite3.0.dylib</string>
 		<string>/Iphone Projects/Vertax/common classes/Common/Facebook Share/iphonesimulator3.1.2/System/Library/Frameworks/CoreGraphics.framework</string>
 		<string>/Iphone Projects/Vertax/common classes/Common/Facebook Share/FBConnectGlobal.m</string>
-		<string>/Iphone Projects/Vertax/common classes/Common/Facebook Share/FBConnect/FBDialog.h</string>
+		<string>/Iphone Projects/Vertax/common classes/Common/Facebook Share/iphonesimulator3.1.2/usr/lib/libxml2.2.dylib</string>
 		<string>/Iphone Projects/Vertax/common classes/Common/Facebook Share/FBStreamDialog.m</string>
 		<string>/Iphone Projects/Vertax/common classes/Common/Facebook Share/iphonesimulator3.1.2/System/Library/Frameworks/Security.framework</string>
 		<string>/Iphone Projects/Vertax/common classes/Common/Facebook Share/FBDialog.m</string>
-		<string>/Iphone Projects/Vertax/common classes/Common/Facebook Share/iphonesimulator3.1.2/usr/lib/libxml2.2.dylib</string>
+		<string>/Iphone Projects/Vertax/common classes/Common/Facebook Share/FBConnect/FBDialog.h</string>
 		<string>/Iphone Projects/Vertax/common classes/Common/Facebook Share/iphonesimulator3.1.2/System/Library/Frameworks/Foundation.framework</string>
 		<string>/Iphone Projects/Vertax/common classes/Common/Facebook Share/iphonesimulator3.1.2/System/Library/Frameworks/CoreLocation.framework</string>
 		<string>/Iphone Projects/Vertax/common classes/Common/Facebook Share/FBConnect/FBSession.h</string>

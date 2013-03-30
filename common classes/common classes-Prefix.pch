@@ -11,8 +11,7 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
-
-#import "ftutils/Headers/FTUtils/FTAnimation+UIView.h" 
-#import "ftutils/Headers/FTUtils/FTAnimationManager.h"
+#import "FTAnimation+UIView.h"
+#import "FTAnimationManager.h"
 #import "ChatCommonMethodsViewController.h"
 #endif
