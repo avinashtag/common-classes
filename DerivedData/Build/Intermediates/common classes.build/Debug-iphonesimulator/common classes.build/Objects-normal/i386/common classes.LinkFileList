@@ -1,6 +1,7 @@
 /Iphone Projects/Vertax/common classes/DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/main.o
 /Iphone Projects/Vertax/common classes/DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/AppDelegate.o
 /Iphone Projects/Vertax/common classes/DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/ChatCommonMethodsViewController.o
+/Iphone Projects/Vertax/common classes/DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/CommonHeader.o
 /Iphone Projects/Vertax/common classes/DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/Constants.o
 /Iphone Projects/Vertax/common classes/DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/Global.o
 /Iphone Projects/Vertax/common classes/DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/GlobalWebservice.o
@@ -12,6 +13,8 @@
 /Iphone Projects/Vertax/common classes/DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/UIButton+WebCache.o
 /Iphone Projects/Vertax/common classes/DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/UIImageView+WebCache.o
 /Iphone Projects/Vertax/common classes/DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/MBProgressHUD.o
+/Iphone Projects/Vertax/common classes/DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/SelectPopUpCell.o
+/Iphone Projects/Vertax/common classes/DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/SelectPopViewController.o
 /Iphone Projects/Vertax/common classes/DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/proAlertView.o
 /Iphone Projects/Vertax/common classes/DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/NSObject+SBJson.o
 /Iphone Projects/Vertax/common classes/DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/SBJsonParser.o
@@ -27,6 +30,3 @@
 /Iphone Projects/Vertax/common classes/DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/SBJsonWriter.o
 /Iphone Projects/Vertax/common classes/DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/DineWebserviceClass.o
 /Iphone Projects/Vertax/common classes/DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/DineWebserviceSwitch.o
-/Iphone Projects/Vertax/common classes/DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/CommonHeader.o
-/Iphone Projects/Vertax/common classes/DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/SelectPopViewController.o
-/Iphone Projects/Vertax/common classes/DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/SelectPopUpCell.o
