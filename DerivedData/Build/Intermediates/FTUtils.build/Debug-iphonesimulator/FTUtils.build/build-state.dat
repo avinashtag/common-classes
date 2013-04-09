@@ -4,14 +4,14 @@ r1
 cCheck dependencies
 cProcessPCH "/Iphone Projects/Vertax/common classes/DerivedData/Build/Intermediates/PrecompiledHeaders/FTUtils_Prefix-eevnmpsawfokpbcylglpumxapltq/FTUtils_Prefix.pch.pth" FTUtils_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cProcessPCH "/Iphone Projects/Vertax/common classes/DerivedData/Build/Intermediates/PrecompiledHeaders/FTUtils_Prefix-fonbwcrnzdlqkehkisvzvywfucki/FTUtils_Prefix.pch.pth" FTUtils_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
-cCompileC "/Iphone Projects/Vertax/common classes/DerivedData/Build/Intermediates/FTUtils.build/Debug-iphonesimulator/FTUtils.build/Objects-normal/i386/FTAnimationManager.o" "/Iphone Projects/Vertax/ftutils/Classes/FTAnimationManager.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "/Iphone Projects/Vertax/common classes/DerivedData/Build/Intermediates/FTUtils.build/Debug-iphonesimulator/FTUtils.build/Objects-normal/i386/FTUtils+UIGestureRecognizer.o" "/Iphone Projects/Vertax/ftutils/Classes/FTUtils+UIGestureRecognizer.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "/Iphone Projects/Vertax/common classes/DerivedData/Build/Intermediates/FTUtils.build/Debug-iphonesimulator/FTUtils.build/Objects-normal/i386/FTUtils+NSObject.o" "/Iphone Projects/Vertax/ftutils/Classes/FTUtils+NSObject.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "/Iphone Projects/Vertax/common classes/DerivedData/Build/Intermediates/FTUtils.build/Debug-iphonesimulator/FTUtils.build/Objects-normal/i386/FTAnimation+UIView.o" "/Iphone Projects/Vertax/ftutils/Classes/FTAnimation+UIView.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cAnalyze "/Iphone Projects/Vertax/ftutils/Classes/FTAnimation+UIView.m"
 cAnalyze "/Iphone Projects/Vertax/ftutils/Classes/FTAnimationManager.m"
-cAnalyze "/Iphone Projects/Vertax/ftutils/Classes/FTUtils+NSObject.m"
+cAnalyze "/Iphone Projects/Vertax/ftutils/Classes/FTAnimation+UIView.m"
 cAnalyze "/Iphone Projects/Vertax/ftutils/Classes/FTUtils+UIGestureRecognizer.m"
+cAnalyze "/Iphone Projects/Vertax/ftutils/Classes/FTUtils+NSObject.m"
+cCompileC "/Iphone Projects/Vertax/common classes/DerivedData/Build/Intermediates/FTUtils.build/Debug-iphonesimulator/FTUtils.build/Objects-normal/i386/FTUtils+UIGestureRecognizer.o" "/Iphone Projects/Vertax/ftutils/Classes/FTUtils+UIGestureRecognizer.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "/Iphone Projects/Vertax/common classes/DerivedData/Build/Intermediates/FTUtils.build/Debug-iphonesimulator/FTUtils.build/Objects-normal/i386/FTAnimationManager.o" "/Iphone Projects/Vertax/ftutils/Classes/FTAnimationManager.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cLibtool "/Iphone Projects/Vertax/common classes/DerivedData/Build/Products/Debug-iphonesimulator/libFTUtils.a" normal i386
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
@@ -278,7 +278,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciese25cbba6fc0ab741^0f9cbba6fc0ab741^---0#1#0#--18"Check dependencies36"350F0643-FE82-4C10-9E65-302405E18142-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies7dcbd80dfe0ab741^b30cd90dfe0ab741^---0#1#0#--18"Check dependencies36"8E9F1F6C-7722-4312-B607-7DFEB90F1E6D-
 
 CCompileC "/Iphone Projects/Vertax/common classes/DerivedData/Build/Intermediates/FTUtils.build/Debug-iphonesimulator/FTUtils.build/Objects-normal/i386/FTAnimation+UIView.o" "/Iphone Projects/Vertax/common classes/common classes/ftutils/Classes/FTAnimation+UIView.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s386166754.061825

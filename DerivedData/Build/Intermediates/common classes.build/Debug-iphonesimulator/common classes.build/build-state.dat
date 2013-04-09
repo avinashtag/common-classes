@@ -5,55 +5,55 @@ cCheck dependencies
 cProcessInfoPlistFile "/Iphone Projects/Vertax/common classes/DerivedData/Build/Products/Debug-iphonesimulator/common classes.app/Info.plist" "common classes/common classes-Info.plist"
 cProcessPCH "/Iphone Projects/Vertax/common classes/DerivedData/Build/Intermediates/PrecompiledHeaders/common classes-Prefix-abjdygpkcwxenwcafgodurlftpvh/common classes-Prefix.pch.pth" "common classes/common classes-Prefix.pch" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cProcessPCH "/Iphone Projects/Vertax/common classes/DerivedData/Build/Intermediates/PrecompiledHeaders/common classes-Prefix-fcisnpqohrxyoxdmwmkqizdszdtb/common classes-Prefix.pch.pth" "common classes/common classes-Prefix.pch" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/Global.o" "/Iphone Projects/Vertax/common classes/Common/Global/Global.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/SDWebImageDecoder.o" "/Iphone Projects/Vertax/common classes/Common/Lazy Load/SDWebImageDecoder.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/main.o" "/Iphone Projects/Vertax/common classes/common classes/main.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/SDWebImageDownloader.o" "/Iphone Projects/Vertax/common classes/Common/Lazy Load/SDWebImageDownloader.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/CommonHeader.o" "/Iphone Projects/Vertax/common classes/Common/Common Class/CommonHeader.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/AppDelegate.o" "/Iphone Projects/Vertax/common classes/common classes/AppDelegate.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/ChatCommonMethodsViewController.o" "/Iphone Projects/Vertax/common classes/Common/Common Class/ChatCommonMethodsViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/SDWebImageDecoder.o" "/Iphone Projects/Vertax/common classes/Common/Lazy Load/SDWebImageDecoder.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/SDWebImageDownloader.o" "/Iphone Projects/Vertax/common classes/Common/Lazy Load/SDWebImageDownloader.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/Constants.o" "/Iphone Projects/Vertax/common classes/Common/Global/Constants.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/CommonHeader.o" "/Iphone Projects/Vertax/common classes/Common/Common Class/CommonHeader.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/main.o" "/Iphone Projects/Vertax/common classes/common classes/main.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/Global.o" "/Iphone Projects/Vertax/common classes/Common/Global/Global.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/ChatCommonMethodsViewController.o" "/Iphone Projects/Vertax/common classes/Common/Common Class/ChatCommonMethodsViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/SDWebImageManager.o" "/Iphone Projects/Vertax/common classes/Common/Lazy Load/SDWebImageManager.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/SDWebImagePrefetcher.o" "/Iphone Projects/Vertax/common classes/Common/Lazy Load/SDWebImagePrefetcher.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/SDImageCache.o" "/Iphone Projects/Vertax/common classes/Common/Lazy Load/SDImageCache.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/SDWebImagePrefetcher.o" "/Iphone Projects/Vertax/common classes/Common/Lazy Load/SDWebImagePrefetcher.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/GlobalWebservice.o" "/Iphone Projects/Vertax/common classes/Common/Global/GlobalWebservice.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/UIImageView+WebCache.o" "/Iphone Projects/Vertax/common classes/Common/Lazy Load/UIImageView+WebCache.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/UIButton+WebCache.o" "/Iphone Projects/Vertax/common classes/Common/Lazy Load/UIButton+WebCache.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/UIImageView+WebCache.o" "/Iphone Projects/Vertax/common classes/Common/Lazy Load/UIImageView+WebCache.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/SelectPopUpCell.o" "/Iphone Projects/Vertax/common classes/Common/PopSelection/SelectPopUpCell.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/MBProgressHUD.o" "/Iphone Projects/Vertax/common classes/Common/MBProgress HUD/MBProgressHUD.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/SelectPopViewController.o" "/Iphone Projects/Vertax/common classes/Common/PopSelection/SelectPopViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/proAlertView.o" "/Iphone Projects/Vertax/common classes/Common/ProAlert/proAlertView.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/NSObject+SBJson.o" "/Iphone Projects/Vertax/common classes/Common/SBJSON Classes/NSObject+SBJson.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/SBJsonParser.o" "/Iphone Projects/Vertax/common classes/Common/SBJSON Classes/SBJsonParser.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/SelectPopViewController.o" "/Iphone Projects/Vertax/common classes/Common/PopSelection/SelectPopViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/SBJsonStreamParserAccumulator.o" "/Iphone Projects/Vertax/common classes/Common/SBJSON Classes/SBJsonStreamParserAccumulator.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/SBJsonStreamParserAdapter.o" "/Iphone Projects/Vertax/common classes/Common/SBJSON Classes/SBJsonStreamParserAdapter.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/SBJsonStreamParser.o" "/Iphone Projects/Vertax/common classes/Common/SBJSON Classes/SBJsonStreamParser.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/SBJsonStreamParserState.o" "/Iphone Projects/Vertax/common classes/Common/SBJSON Classes/SBJsonStreamParserState.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/SBJsonStreamWriter.o" "/Iphone Projects/Vertax/common classes/Common/SBJSON Classes/SBJsonStreamWriter.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/SBJsonStreamParser.o" "/Iphone Projects/Vertax/common classes/Common/SBJSON Classes/SBJsonStreamParser.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/SBJsonStreamParserAccumulator.o" "/Iphone Projects/Vertax/common classes/Common/SBJSON Classes/SBJsonStreamParserAccumulator.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/SBJsonStreamWriterAccumulator.o" "/Iphone Projects/Vertax/common classes/Common/SBJSON Classes/SBJsonStreamWriterAccumulator.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/SBJsonStreamWriter.o" "/Iphone Projects/Vertax/common classes/Common/SBJSON Classes/SBJsonStreamWriter.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/SBJsonStreamWriterState.o" "/Iphone Projects/Vertax/common classes/Common/SBJSON Classes/SBJsonStreamWriterState.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/SBJsonTokeniser.o" "/Iphone Projects/Vertax/common classes/Common/SBJSON Classes/SBJsonTokeniser.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/SBJsonUTF8Stream.o" "/Iphone Projects/Vertax/common classes/Common/SBJSON Classes/SBJsonUTF8Stream.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/SBJsonWriter.o" "/Iphone Projects/Vertax/common classes/Common/SBJSON Classes/SBJsonWriter.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/DineWebserviceClass.o" "/Iphone Projects/Vertax/common classes/Common/Webservice Class/DineWebserviceClass.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/SBJsonUTF8Stream.o" "/Iphone Projects/Vertax/common classes/Common/SBJSON Classes/SBJsonUTF8Stream.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/DineWebserviceSwitch.o" "/Iphone Projects/Vertax/common classes/Common/Webservice Class/DineWebserviceSwitch.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/DineWebserviceClass.o" "/Iphone Projects/Vertax/common classes/Common/Webservice Class/DineWebserviceClass.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cLd "/Iphone Projects/Vertax/common classes/DerivedData/Build/Products/Debug-iphonesimulator/common classes.app/common classes" normal i386
 cGenerateDSYMFile "/Iphone Projects/Vertax/common classes/DerivedData/Build/Products/Debug-iphonesimulator/common classes.app.dSYM" "/Iphone Projects/Vertax/common classes/DerivedData/Build/Products/Debug-iphonesimulator/common classes.app/common classes"
-cCopyStringsFile "/Iphone Projects/Vertax/common classes/DerivedData/Build/Products/Debug-iphonesimulator/common classes.app/en.lproj/InfoPlist.strings" "common classes/en.lproj/InfoPlist.strings"
 cCpResource "common classes/Default@2x.png" "DerivedData/Build/Products/Debug-iphonesimulator/common classes.app/Default@2x.png"
 cCpResource "common classes/Default.png" "DerivedData/Build/Products/Debug-iphonesimulator/common classes.app/Default.png"
+cCopyStringsFile "/Iphone Projects/Vertax/common classes/DerivedData/Build/Products/Debug-iphonesimulator/common classes.app/en.lproj/InfoPlist.strings" "common classes/en.lproj/InfoPlist.strings"
 cCpResource "common classes/Default-568h@2x.png" "DerivedData/Build/Products/Debug-iphonesimulator/common classes.app/Default-568h@2x.png"
+cCpResource Common/ProAlert/iphone/payment/payment_tab1_on.png "DerivedData/Build/Products/Debug-iphonesimulator/common classes.app/payment_tab1_on.png"
 cCpResource Common/ProAlert/iphone/payment/payment_tab1_on@2x.png "DerivedData/Build/Products/Debug-iphonesimulator/common classes.app/payment_tab1_on@2x.png"
 cCompileXIB "/Iphone Projects/Vertax/common classes/Common/PopSelection/SelectPopUpCell.xib"
-cCpResource Common/ProAlert/iphone/payment/payment_tab1_on.png "DerivedData/Build/Products/Debug-iphonesimulator/common classes.app/payment_tab1_on.png"
 cCpResource Common/ProAlert/iphone/payment/payment_tab2_on.png "DerivedData/Build/Products/Debug-iphonesimulator/common classes.app/payment_tab2_on.png"
-cCpResource Common/ProAlert/iphone/payment/payment_tab3_on.png "DerivedData/Build/Products/Debug-iphonesimulator/common classes.app/payment_tab3_on.png"
 cCpResource Common/ProAlert/iphone/payment/payment_tab2_on@2x.png "DerivedData/Build/Products/Debug-iphonesimulator/common classes.app/payment_tab2_on@2x.png"
+cCpResource Common/ProAlert/iphone/payment/payment_tab3_on.png "DerivedData/Build/Products/Debug-iphonesimulator/common classes.app/payment_tab3_on.png"
 cCpResource Common/ProAlert/iphone/payment/payment_tab3_on@2x.png "DerivedData/Build/Products/Debug-iphonesimulator/common classes.app/payment_tab3_on@2x.png"
 cCpResource Common/ProAlert/iphone/payment/payment_tab4_on.png "DerivedData/Build/Products/Debug-iphonesimulator/common classes.app/payment_tab4_on.png"
 cCpResource Common/ProAlert/iphone/voucher/vouher_tab1_on.png "DerivedData/Build/Products/Debug-iphonesimulator/common classes.app/vouher_tab1_on.png"
-cCpResource Common/ProAlert/iphone/voucher/vouher_tab1_on@2x.png "DerivedData/Build/Products/Debug-iphonesimulator/common classes.app/vouher_tab1_on@2x.png"
 cCpResource Common/ProAlert/iphone/payment/payment_tab4_on@2x.png "DerivedData/Build/Products/Debug-iphonesimulator/common classes.app/payment_tab4_on@2x.png"
+cCpResource Common/ProAlert/iphone/voucher/vouher_tab1_on@2x.png "DerivedData/Build/Products/Debug-iphonesimulator/common classes.app/vouher_tab1_on@2x.png"
 cCpResource Common/ProAlert/iphone/voucher/vouher_tab2_on.png "DerivedData/Build/Products/Debug-iphonesimulator/common classes.app/vouher_tab2_on.png"
 cCpResource Common/ProAlert/iphone/voucher/vouher_tab2_on@2x.png "DerivedData/Build/Products/Debug-iphonesimulator/common classes.app/vouher_tab2_on@2x.png"
 cTouch "/Iphone Projects/Vertax/common classes/DerivedData/Build/Products/Debug-iphonesimulator/common classes.app"
@@ -682,15 +682,15 @@ t1364902996
 s3292
 
 N/Iphone Projects/Vertax/common classes/DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/proAlertView.o
-t2
-s0
+t1364903206
+s90376
 
 N/Iphone Projects/Vertax/common classes/DerivedData/Build/Products/Debug-iphonesimulator/common classes.app
-t1364903122
+t1364903207
 s782
 
 N/Iphone Projects/Vertax/common classes/DerivedData/Build/Products/Debug-iphonesimulator/common classes.app.dSYM
-t1364903122
+t1364903207
 s102
 
 N/Iphone Projects/Vertax/common classes/DerivedData/Build/Products/Debug-iphonesimulator/common classes.app/Common
@@ -722,8 +722,8 @@ t1364473992
 s1837
 
 N/Iphone Projects/Vertax/common classes/DerivedData/Build/Products/Debug-iphonesimulator/common classes.app/common classes
-t1364903122
-s21576
+t1364903207
+s508224
 
 N/Iphone Projects/Vertax/common classes/DerivedData/Build/Products/Debug-iphonesimulator/common classes.app/en.lproj/InfoPlist.strings
 t1364473992
@@ -944,7 +944,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies1f65c8a6fc0ab741^dcbae3a6fc0ab741^---0#1#0#--18"Check dependencies36"028A5DF7-0BA9-40D4-9AC8-10F5872B5CF8-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesdcdae60dfe0ab741^9814e70dfe0ab741^---0#1#0#--18"Check dependencies36"190CD799-F455-4AD4-97BF-0252A9058831-
 
 CCompileC "DerivedData/Build/Intermediates/common classes.build/Debug-iphonesimulator/common classes.build/Objects-normal/i386/AppDelegate.o" "/Iphone Projects/Vertax/common classes/common classes/AppDelegate.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s386595796.234170
