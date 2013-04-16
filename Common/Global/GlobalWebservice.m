@@ -1,4 +1,3 @@
-//
 //  GlobalWebservice.m
 //  SVB
 //
@@ -190,106 +189,31 @@ BOOL ServerIsReachable = FALSE;
 	
 }
 
-+(BOOL)PostImage:(NSMutableData*)body DataForImage:(NSDictionary*)dataforimage Url:(NSString*)urlString
-{
-    BOOL status;
-    
-//     NSString *urlString = [NSString stringWithFormat:@"http://dev.vertaxtechnology.com/phpfox_demo/webservice/post.php"];
-    
-//    NSString *urlString = [NSString stringWithFormat:@""];
-//    ?user=%@&title=%@&description=test&privacy=1",userId,Title,description,privacy
-    NSLog(@"%@",urlString);
-    // setting up the request object now
-    NSMutableURLRequest *request = [[NSMutableURLRequest alloc] init];
-    [request setURL:[NSURL URLWithString:urlString]];
-    [request setHTTPMethod:@"POST"];
-    
-    NSString *contentType = [NSString stringWithFormat:@"multipart/form-data; boundary=%@",boundary];
-    [request addValue:contentType forHTTPHeaderField: @"Content-Type"];
-
-    [body appendData:[[NSString stringWithFormat:@"\r\n--%@--\r\n",boundary] dataUsingEncoding:NSUTF8StringEncoding]];
-    // setting the body of the post to the reqeust
-    [request setHTTPBody:body];
-    
-    // now lets make the connection to the web
-    NSData *returnData = [NSURLConnection sendSynchronousRequest:request returningResponse:nil error:nil];
-    NSString *returnString = [[NSString alloc] initWithData:returnData encoding:NSUTF8StringEncoding];
-    NSLog(@"%@",returnString);
-    NSArray *arrpicResult = [returnString JSONValue];
-    [[ChatCommonMethodsViewController shared_Object]MBHUD_Stop];
-    NSString *status1 = [[arrpicResult objectAtIndex:0] objectForKey:@"status"] ;
-    NSString *userId = [[[arrpicResult objectAtIndex:0] objectForKey:@"data"] objectForKey:@"user_id"];
-    NSLog(@"%@",arrpicResult);
-    status = [status1 isEqualToString:@"true"]?YES:NO;
-//    if (status) {
-//        [[ChatHomeViewController shared_Instance] viewWillAppear:YES];
-//    }
-//    [[ChatCommonMethodsViewController shared_Object]MBHUD_Stop];
-//    [[ChatHomeViewController shared_Instance] viewWillAppear:YES];
-
-    return status;
-}
-
 +(id)PostData:(NSMutableData*)body Url:(NSString*)urlString
 {
-    // setting up the request object now
-    NSMutableURLRequest *request = [[NSMutableURLRequest alloc] init];
-    [request setURL:[NSURL URLWithString:urlString]];
-    [request setHTTPMethod:@"POST"];
-    NSString *contentType = [NSString stringWithFormat:@"multipart/form-data; boundary=%@",boundary];
-    [request addValue:contentType forHTTPHeaderField: @"Content-Type"];
-    [body appendData:[[NSString stringWithFormat:@"\r\n--%@--\r\n",boundary] dataUsingEncoding:NSUTF8StringEncoding]];
-    // setting the body of the post to the reqeust
-    [request setHTTPBody:body];
-    // now lets make the connection to the web
-    NSData *returnData = [NSURLConnection sendSynchronousRequest:request returningResponse:nil error:nil];
-    NSString *returnString = [[NSString alloc] initWithData:returnData encoding:NSUTF8StringEncoding];
-    NSLog(@"%@",returnString);
-    NSArray *arrpicResult = [returnString JSONValue];
-    [[ChatCommonMethodsViewController shared_Object]MBHUD_Stop];
-    return arrpicResult;
-}
+    NSLog(@"url %@",urlString);
 
-//NSString *status1 = [[arrpicResult objectAtIndex:0] objectForKey:@"status"] ;
-//NSString *userId = [[[arrpicResult objectAtIndex:0] objectForKey:@"data"] objectForKey:@"user_id"];
-//[DineWebserviceClass SharedObject].user_id = userId;
-//NSLog(@"%@",arrpicResult);
-//status = [status1 isEqualToString:@"true"]?YES:NO;
-
-
-//
-
--(BOOL)PostMusic:(NSMutableData*)body
-{
-    NSString *urlString = [NSString stringWithFormat:@"http://www.postandchat.com/webservice/music.php"];
-    //    ?user=%@&title=%@&description=test&privacy=1",userId,Title,description,privacy
-    NSLog(@"%@",urlString);
-    // setting up the request object now
-    NSMutableURLRequest *request = [[NSMutableURLRequest alloc] init];
-    [request setURL:[NSURL URLWithString:urlString]];
-    [request setHTTPMethod:@"POST"];
-    
-    NSString *contentType = [NSString stringWithFormat:@"multipart/form-data; boundary=%@",boundary];
-    [request addValue:contentType forHTTPHeaderField: @"Content-Type"];
-    
-    [body appendData:[[NSString stringWithFormat:@"\r\n--%@--\r\n",boundary] dataUsingEncoding:NSUTF8StringEncoding]];
-    // setting the body of the post to the reqeust
-    [request setHTTPBody:body];
-    
-    // now lets make the connection to the web
-    NSData *returnData = [NSURLConnection sendSynchronousRequest:request returningResponse:nil error:nil];
-    NSString *returnString = [[NSString alloc] initWithData:returnData encoding:NSUTF8StringEncoding];
-    NSLog(@"%@",returnString);
-    NSArray *arrpicResult = [returnString JSONValue];
-    //    NSLog(@"%@",arrpicResult);
-    NSString *status1 = [[arrpicResult objectAtIndex:0] objectForKey:@"Status"] ;
-     BOOL status = [status1 isEqualToString:@"Yes"]?YES:NO;
-//    if (status) {
-//        [[ChatHomeViewController shared_Instance] viewWillAppear:YES];
-//    }
-//    [[ChatCommonMethodsViewController shared_Object]MBHUD_Stop];
-//    [[ChatHomeViewController shared_Instance] viewWillAppear:YES];
-    return status;
+    if([GlobalWebservice IsServerReachable])
+	{
+        // setting up the request object now
+        NSMutableURLRequest *request = [[NSMutableURLRequest alloc] init];
+        [request setURL:[NSURL URLWithString:urlString]];
+        [request setHTTPMethod:@"POST"];
+        NSString *contentType = [NSString stringWithFormat:@"multipart/form-data; boundary=%@",boundary];
+        [request addValue:contentType forHTTPHeaderField: @"Content-Type"];
+        [body appendData:[[NSString stringWithFormat:@"\r\n--%@--\r\n",boundary] dataUsingEncoding:NSUTF8StringEncoding]];
+        // setting the body of the post to the reqeust
+        [request setHTTPBody:body];
+        // now lets make the connection to the web
+        
+        NSData *returnData ;
+        returnData = [NSURLConnection sendSynchronousRequest:request returningResponse:nil error:nil];
+        NSString *returnString = [[NSString alloc] initWithData:returnData encoding:NSUTF8StringEncoding];
+        NSLog(@"response %@",returnString);
+        NSArray *arrpicResult = [returnString JSONValue];
+        return arrpicResult;
+    }
+    return nil;
 }
 
 -(void)delegateCall:(id)data

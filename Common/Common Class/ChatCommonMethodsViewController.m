@@ -24,7 +24,7 @@
 @end
 
 @implementation ChatCommonMethodsViewController
-
+UIImageView *blackTint;
 @synthesize arr_PrivacyShare;
 @synthesize actionSheet;
 @synthesize currentPicker_row;
@@ -148,7 +148,7 @@ AppDelegate *appDelegate;
 -(void)AlertView_Activity_indicatorTitle:(NSString*)Title Message:(NSString*)Message
 {
 	alertView1 = [[proAlertView alloc] initWithTitle:Title message:Message delegate:self cancelButtonTitle:nil otherButtonTitles:nil];
-    [alertView1 setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageWithContentsOfFile:[[NSBundle mainBundle]pathForResource:@"background.png" ofType:@""]]] withStrokeColor:[UIColor blackColor]];
+    [alertView1 setBackgroundColor:[UIColor colorWithRed:218.0/255.0f green:63.0/255.0f blue:63.0/255.0f alpha:1] withStrokeColor:[UIColor colorWithRed:129.0/255.0f green:33.0/255.0f blue:33.0/255.0f alpha:1]];
 
     UIActivityIndicatorView *progress= [[UIActivityIndicatorView alloc] initWithFrame:CGRectMake(125, 75, 30, 30)];
     progress.activityIndicatorViewStyle = UIActivityIndicatorViewStyleWhiteLarge;
@@ -164,21 +164,21 @@ AppDelegate *appDelegate;
 -(void)AlertWithCancel_btn:(NSString*)cancelButtonTitle AlertMessage:(NSString*)AlertMessage ALertTitle:(NSString*)AlertTitle
 {
 	proAlertView *alertView=[[proAlertView alloc] initWithTitle:AlertTitle message:AlertMessage delegate:self cancelButtonTitle:cancelButtonTitle otherButtonTitles:nil];
-    [alertView setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageWithContentsOfFile:[[NSBundle mainBundle]pathForResource:@"background.png" ofType:@""]]] withStrokeColor:[UIColor blackColor]];
+    [alertView setBackgroundColor:[UIColor colorWithRed:218.0/255.0f green:63.0/255.0f blue:63.0/255.0f alpha:1] withStrokeColor:[UIColor colorWithRed:129.0/255.0f green:33.0/255.0f blue:33.0/255.0f alpha:1]];
 	[alertView show];
 }
 -(void)AlertWithError_btn:(NSString*)cancelButtonTitle AlertMessage:(NSString*)AlertMessage ALertTitle:(NSString*)AlertTitle
 {
 	proAlertView *alertView=[[proAlertView alloc] initWithTitle:AlertTitle message:AlertMessage delegate:self cancelButtonTitle:cancelButtonTitle otherButtonTitles:nil];
-    [alertView setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageWithContentsOfFile:[[NSBundle mainBundle]pathForResource:@"background.png" ofType:@""]]] withStrokeColor:[UIColor blackColor]];
-    [alertView vibrateAlert:0.50];
+    [alertView setBackgroundColor:[UIColor colorWithRed:218.0/255.0f green:63.0/255.0f blue:63.0/255.0f alpha:1] withStrokeColor:[UIColor colorWithRed:129.0/255.0f green:33.0/255.0f blue:33.0/255.0f alpha:1]];
+    [alertView vibrateAlert:0.51];
 	[alertView show];
 }
 
 -(void)ALertView_ShareButton
 {
 	alertView1 = [[proAlertView alloc] initWithTitle:nil message:@"\n\n" delegate:self cancelButtonTitle:nil otherButtonTitles:nil];
-    [alertView1 setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageWithContentsOfFile:[[NSBundle mainBundle]pathForResource:@"background.png" ofType:@""]]] withStrokeColor:[UIColor blackColor]];
+    [alertView1 setBackgroundColor:[UIColor colorWithRed:218.0/255.0f green:63.0/255.0f blue:63.0/255.0f alpha:1] withStrokeColor:[UIColor colorWithRed:129.0/255.0f green:33.0/255.0f blue:33.0/255.0f alpha:1]];
     
     
     UIButton *btnFacebook = [UIButton buttonWithType:UIButtonTypeRoundedRect];
@@ -358,7 +358,7 @@ AppDelegate *appDelegate;
 
 #pragma mark MB HUD
 
--(void)MBHUD_Start:(UIView*)parentView
+-(void)MBHUD_Start
 {
     
     UIView* parentView1 = [appDelegate window];
@@ -553,11 +553,24 @@ AppDelegate *appDelegate;
     return Object;
 }
 
-+(void)AddSubViewCustom:(UIView*)subview ParentView:(UIView*)ParentView Frame:(CGRect)frame Hide:(BOOL)True
++(void)AddSubViewCustom:(UIView*)subview ParentView:(UIView*)ParentView Frame:(CGRect)frame Hide:(BOOL)True WithBlackTintImage:(BOOL)imageT
 {
+    blackTint = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"black_tint_popup@2x.png"]];
+    blackTint.frame = frame;
     [subview setFrame:CGRectMake(frame.origin.x, frame.origin.y, frame.size.width, frame.size.height)];
-    [ParentView addSubview:subview];
-    [subview setHidden:TRUE];
+    
+    if (imageT)
+    {
+        [blackTint addSubview:subview];
+        [ParentView addSubview:blackTint];
+        [subview setHidden:TRUE];
+        [blackTint setUserInteractionEnabled:YES];
+    }
+    else
+    {
+        [ParentView addSubview:subview];
+        [subview setHidden:TRUE];
+    }
 }
 
 
@@ -567,7 +580,7 @@ AppDelegate *appDelegate;
     selectedPop.popDelegate = getDeleget;
     selectedPop.Servicename = service;
     CGRect rectpop = CGRectMake(ParentView.frame.origin.x, ParentView.frame.origin.y- 20, ParentView.frame.size.width, ParentView.frame.size.height);
-    [ChatCommonMethodsViewController AddSubViewCustom:selectedPop.view ParentView:ParentView Frame:rectpop Hide:YES];
+    [ChatCommonMethodsViewController AddSubViewCustom:selectedPop.view ParentView:ParentView Frame:rectpop Hide:YES WithBlackTintImage:NO];
     [selectedPop.view popIn:0.30 delegate:nil];
     
 }
@@ -587,5 +600,22 @@ AppDelegate *appDelegate;
     [dateformatter setDateFormat:format];
     Datereturn = [dateformatter dateFromString:DateString];
     return Datereturn;
+}
+
++(void)RemoveBlackTint
+{
+    for (UIView *v in blackTint.subviews) {
+[v removeFromSuperview];
+}
+    [blackTint removeFromSuperview];
+    blackTint = nil;
+}
+
++(void)AnimateViewToXAxis:(float)x AnimateView:(UIView*)view
+{
+    [UIView beginAnimations:nil context:nil];
+    [UIView setAnimationDuration:0.3];
+    [view setFrame:CGRectMake( x, 0, view.frame.size.width, view.frame.size.height)];
+    [UIView commitAnimations];
 }
 @end

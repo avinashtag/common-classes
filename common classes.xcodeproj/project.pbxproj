@@ -51,6 +51,7 @@
 		760E8967170AFC73009117AF /* DineWebserviceClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 760E893B170AFC73009117AF /* DineWebserviceClass.m */; };
 		760E8968170AFC73009117AF /* DineWebserviceSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 760E893D170AFC73009117AF /* DineWebserviceSwitch.m */; };
 		760E8969170AFC90009117AF /* libFTUtils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 760E88D0170AFC01009117AF /* libFTUtils.a */; };
+		7644C3EA1716DB2E0070DF70 /* PostData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7644C3E91716DB2E0070DF70 /* PostData.m */; };
 		76DCDAB317045DC8000E4374 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76DCDAB217045DC8000E4374 /* UIKit.framework */; };
 		76DCDAB517045DC8000E4374 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76DCDAB417045DC8000E4374 /* Foundation.framework */; };
 		76DCDAB717045DC8000E4374 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76DCDAB617045DC8000E4374 /* CoreGraphics.framework */; };
@@ -184,6 +185,8 @@
 		760E893B170AFC73009117AF /* DineWebserviceClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DineWebserviceClass.m; sourceTree = "<group>"; };
 		760E893C170AFC73009117AF /* DineWebserviceSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DineWebserviceSwitch.h; sourceTree = "<group>"; };
 		760E893D170AFC73009117AF /* DineWebserviceSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DineWebserviceSwitch.m; sourceTree = "<group>"; };
+		7644C3E81716DB2E0070DF70 /* PostData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostData.h; sourceTree = "<group>"; };
+		7644C3E91716DB2E0070DF70 /* PostData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostData.m; sourceTree = "<group>"; };
 		76DCDAAF17045DC8000E4374 /* common classes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "common classes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76DCDAB217045DC8000E4374 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		76DCDAB417045DC8000E4374 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -511,6 +514,8 @@
 			children = (
 				760E893A170AFC73009117AF /* DineWebserviceClass.h */,
 				760E893B170AFC73009117AF /* DineWebserviceClass.m */,
+				7644C3E81716DB2E0070DF70 /* PostData.h */,
+				7644C3E91716DB2E0070DF70 /* PostData.m */,
 				760E893C170AFC73009117AF /* DineWebserviceSwitch.h */,
 				760E893D170AFC73009117AF /* DineWebserviceSwitch.m */,
 			);
@@ -717,6 +722,7 @@
 				760E8966170AFC73009117AF /* SBJsonWriter.m in Sources */,
 				760E8967170AFC73009117AF /* DineWebserviceClass.m in Sources */,
 				760E8968170AFC73009117AF /* DineWebserviceSwitch.m in Sources */,
+				7644C3EA1716DB2E0070DF70 /* PostData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

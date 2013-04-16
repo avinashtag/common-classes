@@ -114,7 +114,7 @@
 -(void)ShareView_Out;
 -(void)PayPalView_Out;
 
--(void)MBHUD_Start:(UIView*)parentView;
+-(void)MBHUD_Start;
 -(void)MBHUD_Stop;
 
 -(NSString*)DateFormatChanger:(NSString*)date format:(NSString*)format;
@@ -134,8 +134,10 @@
 -(void)removePaypalView;
 
 
-+(void)AddSubViewCustom:(UIView*)subview ParentView:(UIView*)ParentView Frame:(CGRect)frame Hide:(BOOL)True;
++(void)AddSubViewCustom:(UIView*)subview ParentView:(UIView*)ParentView Frame:(CGRect)frame Hide:(BOOL)True WithBlackTintImage:(BOOL)imageT;
 -(void)AddSelectionPopUp:(UIView*)ParentView DatsourceForTableView:(NSArray*)datasource Delegate:(id)getDeleget ServiceName:(NSInteger)service;
 
 +(NSString*)getCurrentDate;
++(void)RemoveBlackTint;
++(void)AnimateViewToXAxis:(float)x AnimateView:(UIView*)view;
 @end
