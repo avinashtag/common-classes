@@ -22,6 +22,7 @@
 @end
 @implementation DineWebserviceClass
 
+@synthesize User_Id;
 
 static DineWebserviceClass* Object_Shared = Nil;
 NSMutableData *PostDataBody;
@@ -90,7 +91,11 @@ NSMutableData *PostDataBody;
         status = [[[Result objectAtIndex:0] objectForKey:@"status"] isEqualToString:@"true"]?YES:NO;
         if (status) {
             Result = [[Result objectAtIndex:0] objectForKey:@"data"];
-            [self performSelectorOnMainThread:@selector(CallDelegateOnMainThread:) withObject:Result waitUntilDone:YES];
+            NSArray *ResultParsed = [DineWebserviceSwitch Webservice_Switch:_WebService_Identifier ResponseData:Result];
+            if (![ResultParsed count]> 0) {
+                ResultParsed = Result;
+            }
+            [self performSelectorOnMainThread:@selector(CallDelegateOnMainThread:) withObject:ResultParsed waitUntilDone:YES];
         }
         else
         {
@@ -151,6 +156,11 @@ NSMutableData *PostDataBody;
     [[ChatCommonMethodsViewController shared_Object] MBHUD_Stop];
     if ([response isKindOfClass:NSClassFromString(@"NSArray")])
     {
+        if (_WebService_Identifier == WebService_Login)
+        {
+            User_Id = [[response objectAtIndex:0] valueForKey:@"user_id"];
+            
+        }
         [self.delegate WebServiceLoadData:response Message:@""];
     }
     else if ([response isKindOfClass:NSClassFromString(@"NSString")])

@@ -618,4 +618,26 @@ AppDelegate *appDelegate;
     [view setFrame:CGRectMake( x, 0, view.frame.size.width, view.frame.size.height)];
     [UIView commitAnimations];
 }
+
++(float)labelHeightDynamic:(UIFont*)FontUsing MessageContent:(NSString*)MsgCont LabelUsing:(UILabel*)label
+{
+    UIFont *font = FontUsing;
+    int line = ([MsgCont sizeWithFont:font].width/label.frame.size.width)+1;
+    float Height = line* 16;
+    if (Height<15) {
+        Height = 16;
+    }
+    return Height;
+}
+
++(NSString *) stringByStrippingHTML:(NSString *)HtmlString {
+    NSRange r;
+    NSString *s = HtmlString;
+    while ((r = [s rangeOfString:@"<[^>]+>" options:NSRegularExpressionSearch]).location != NSNotFound)
+         s = [s stringByReplacingCharactersInRange:r withString:@""];
+    s = [s stringByTrimmingCharactersInSet:[NSCharacterSet newlineCharacterSet]];
+    s = [s stringByReplacingOccurrencesOfString:@"\r" withString:@" "];
+    return s;
+}
+
 @end

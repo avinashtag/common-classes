@@ -26,6 +26,6 @@
 
 +(BOOL)PostImage:(NSMutableData*)body DataForImage:(NSDictionary*)dataforimage Url:(NSString*)urlString;
 +(id)PostData:(NSMutableData*)body Url:(NSString*)urlString;
-
++(void)Debug:(NSString*)url Body:(NSMutableData*)body Response:(NSString*)response;
 @end
 

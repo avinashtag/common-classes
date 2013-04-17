@@ -192,7 +192,7 @@ BOOL ServerIsReachable = FALSE;
 +(id)PostData:(NSMutableData*)body Url:(NSString*)urlString
 {
     NSLog(@"url %@",urlString);
-
+    
     if([GlobalWebservice IsServerReachable])
 	{
         // setting up the request object now
@@ -211,7 +211,17 @@ BOOL ServerIsReachable = FALSE;
         NSString *returnString = [[NSString alloc] initWithData:returnData encoding:NSUTF8StringEncoding];
         NSLog(@"response %@",returnString);
         NSArray *arrpicResult = [returnString JSONValue];
+        if (LogValue) {
+            [self Debug:urlString Body:body Response:returnString];
+        }
         return arrpicResult;
+    }
+    else
+    {
+        
+        [[ChatCommonMethodsViewController shared_Object] AlertWithError_btn:@"OK" AlertMessage:@"Server Not Reachable Please check Your Internet Connection." ALertTitle:AppName];
+        [[ChatCommonMethodsViewController shared_Object] MBHUD_Stop];
+        
     }
     return nil;
 }
@@ -222,6 +232,13 @@ BOOL ServerIsReachable = FALSE;
     
 }
 
++(void)Debug:(NSString*)url Body:(NSMutableData*)body Response:(NSString*)response
+{
+    if (LogValue) {
+        NSString *str = [[NSString alloc] initWithData:body encoding:NSUTF8StringEncoding];
+        NSLog(@"Url: %@\nForm Data: %@\nResponse: %@",url,str,response);
+    }
+}
 
 @end
 

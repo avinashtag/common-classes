@@ -16,7 +16,13 @@
 typedef enum
 {
     Webservice_Registration=0,
+    WebService_Login,
+    Webservice_GetFeed,
+    Webservices_FeedShare,
+    Webservices_FeedDelete,
+    Webservices_GetRegistrationData,
 } WebServiceIdentifier;
+
 
 @required
 -(void)WebServiceLoadData:(id)DataModel Message:(NSString*)message;
@@ -29,6 +35,8 @@ typedef enum
 +(DineWebserviceClass*)SharedObject;
 @property (nonatomic, strong)id<WebServiceLoadData>delegate;
 @property (assign, nonatomic) NSInteger WebService_Identifier;
+
+@property (strong,nonatomic)NSString *User_Id;
 
 +(NSMutableData*)AddImageToBody:(UIImage*)image ImageName:(NSString*)ImageName PostBody:(NSMutableData*)Body;+(NSMutableData*)SetPostData:(id)getPostdata ForKey:(NSString*)Key UserIdIfSendingImage:(NSString*)userid PostBody:(NSMutableData*)data;
 +(NSMutableURLRequest*)GetPostRequest:(NSMutableData*)body Url:(NSString*)urlString;

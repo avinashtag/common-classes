@@ -140,4 +140,7 @@
 +(NSString*)getCurrentDate;
 +(void)RemoveBlackTint;
 +(void)AnimateViewToXAxis:(float)x AnimateView:(UIView*)view;
+
++(float)labelHeightDynamic:(UIFont*)FontUsing MessageContent:(NSString*)MsgCont LabelUsing:(UILabel*)label;
++(NSString *) stringByStrippingHTML:(NSString *)HtmlString;
 @end

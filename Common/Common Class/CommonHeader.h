@@ -10,5 +10,4 @@
 
 @interface CommonHeader : NSObject
 
-#define AppName @"Specify App Name Here"
 @end
