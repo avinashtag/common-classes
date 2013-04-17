@@ -1,0 +1,31 @@
+Contents of /Iphone Projects/Vertax/ftutils/FTUtils_Prefix.pch
+
+i386-apple-darwin12.2.1
+-x
+objective-c
+-arch
+i386
+-fmessage-length=0
+-std=c99
+-fpascal-strings
+-O0
+-isysroot
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
+-fexceptions
+-fasm-blocks
+-fstrict-aliasing
+-g
+-fobjc-abi-version=2
+-fobjc-legacy-dispatch
+-mios-simulator-version-min=4.0
+-iquote
+-iquote
+-I/Iphone Projects/Vertax/common classes/DerivedData/Build/Products/Debug-iphonesimulator/include
+-IHeaders
+-F/Iphone Projects/Vertax/common classes/DerivedData/Build/Products/Debug-iphonesimulator
+-F/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.sdk/System/Library/Frameworks
+-ferror-limit=10
+-working-directory=/Iphone Projects/Vertax/ftutils
+-Xclang
+-detailed-preprocessing-record
+SDK_PRODUCT_BUILD_VERSION=10B141
