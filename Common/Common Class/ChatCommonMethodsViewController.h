@@ -143,4 +143,6 @@
 
 +(float)labelHeightDynamic:(UIFont*)FontUsing MessageContent:(NSString*)MsgCont LabelUsing:(UILabel*)label;
 +(NSString *) stringByStrippingHTML:(NSString *)HtmlString;
+
++(UIImage*)ImageUserPlaceholder:(NSString*)ImageName;
 @end

@@ -438,7 +438,7 @@ AppDelegate *appDelegate;
 +(NSString*)timeCalculate :(NSString*)Date
 {
     NSDateFormatter *dateformatter = [[NSDateFormatter alloc] init];
-     [dateformatter setDateFormat:@"dd/MM/yyyy HH:mm:ss"];
+     [dateformatter setDateFormat:@"MM/dd/yyyy,HH:mm:ss"];
     
     NSDate* date = [dateformatter dateFromString:Date];
     NSString* isAdult;
@@ -638,6 +638,12 @@ AppDelegate *appDelegate;
     s = [s stringByTrimmingCharactersInSet:[NSCharacterSet newlineCharacterSet]];
     s = [s stringByReplacingOccurrencesOfString:@"\r" withString:@" "];
     return s;
+}
+
++(UIImage*)ImageUserPlaceholder:(NSString*)ImageName
+{
+    UIImage *uiserImage = [[UIImage alloc] initWithContentsOfFile:[[NSBundle mainBundle]pathForResource:ImageName ofType:@"png"]];
+    return uiserImage;
 }
 
 @end

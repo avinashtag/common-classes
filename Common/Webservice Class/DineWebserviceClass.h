@@ -13,15 +13,7 @@
 
 @protocol WebServiceLoadData <NSObject>
 
-typedef enum
-{
-    Webservice_Registration=0,
-    WebService_Login,
-    Webservice_GetFeed,
-    Webservices_FeedShare,
-    Webservices_FeedDelete,
-    Webservices_GetRegistrationData,
-} WebServiceIdentifier;
+
 
 
 @required

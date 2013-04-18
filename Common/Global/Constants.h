@@ -8,3 +8,5 @@ static NSString* key_Image_Name = @"name";
 
 static NSString *boundary = @"---147378";
 
+static NSString* UserImageNamePlaceholder = @"";
+

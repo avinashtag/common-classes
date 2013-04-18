@@ -11,5 +11,5 @@
 
 @interface DineWebserviceSwitch : NSObject
 +(NSMutableArray*)Webservice_Switch:(NSInteger)CheckWebservice ResponseData:(id)response_Object;
-
++(NSMutableDictionary*)removeNullFromDictionary:(NSMutableDictionary*)dict;
 @end
